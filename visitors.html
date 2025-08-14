@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC School - Visitors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+    <div class="logo">ABC School</div>
+    <ul class="nav-links">
+        <li><a href="home.html" >Home</a></li>
+        <li><a href="visitors.html" class="active">Visitors</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="index.html">Login</a></li>
+    </ul>
+</nav>
+
+    <main>
+        <h2>Select Class to View Visitors</h2>
+        <select id="classSelect">
+            <option value="">-- Select Class --</option>
+            <option value="Class 1">Class 1</option>
+            <option value="Class 2">Class 2</option>
+            <option value="Class 3">Class 3</option>
+        </select>
+
+        <div id="visitorList" class="visitor-box"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
